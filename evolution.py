@@ -3,7 +3,7 @@ from SVMDualProblem import *
 
 
 class EvolutionaryAlgorithm:
-    def __init__(self, problem: IProblem, population_size=200, max_generations=2000, crossover_rate=0.5, mutation_rate=0.1, threshold=0.05):
+    def __init__(self, problem: IProblem, population_size=200, max_generations=2000, crossover_rate=0.5, mutation_rate=0.1, threshold=0.5):
         self.problem = problem
         self.population_size = population_size
         self.max_generations = max_generations
